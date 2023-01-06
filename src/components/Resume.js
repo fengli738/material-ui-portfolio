@@ -6,6 +6,7 @@ import Box from "@material-ui/core/Box";
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
     background: "#233",
+    opacity: 0.8
   },
   timeLine: {
     position: "relative",
@@ -114,14 +115,14 @@ const Resume = () => {
   return (
     <Box component="header" className={classes.mainContainer}>
       <Typography variant="h4" align="center" className={classes.heading}>
-        Working Experience
+        Working/Acedamic Experience
       </Typography>
       <Box component="div" className={classes.timeLine}>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2013
+          2019
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -129,27 +130,24 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            web design
+            Gradute from IIT
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Illinois institute of technology
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            In 2019, I graduated from Illinois insitute of technology with my bachelor degree.
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2014
+          2020
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -157,27 +155,26 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            html & css
+            First profession working
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Tek Basic LLC
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            After graduate, I start my first job in Tek Basic LLC, that is a great experience and I worked as
+            a full stact web developer. I Involved in all phases of design, full stack development, requirements
+            gathering, and testing parts for the SDLC to further make improvements and enhancements as per business requirements
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2015
+          2021
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -185,27 +182,24 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Fullstack Javascript
+            Master Program start
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Illinois insitute of technology
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            In 2022 I start my master program in IIT and keep developing and improving myself.
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2017
+          2022
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -213,20 +207,21 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Django & React
+            Intern during study
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Rural Sourcing
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            I started a internship at Rural Sourcing when I pursing my Master program, in this job
+            I work on an agile team of developers to build an internal project using .Net Core and C#, 
+            also create SQL Server with code first approach, EntityFramework Core also include C# for programming language.
+            Analyzed business requirements to determine project scope and objectives with the goal of delivering high-quality 
+            solutions within deadlines.
           </Typography>
         </Box>
       </Box>

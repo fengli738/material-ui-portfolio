@@ -5,7 +5,7 @@ import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import Typed from "react-typed";
 import { makeStyles } from "@material-ui/core/styles";
-import avatar from "../avatar.png";
+import avatar from "../avatar.JPG";
 
 const useStyles = makeStyles((theme) => ({
   avatar: {
@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(1),
   },
   title: {
-    color: "tomato",
+    color: "White",
   },
   subtitle: {
     color: "tan",
@@ -40,7 +40,7 @@ const Header = () => {
         <Avatar className={classes.avatar} src={avatar} alt="Mahmudul Alam" />
       </Grid>
       <Typography className={classes.title} variant="h4">
-        <Typed strings={["Mahmudul Alam"]} typeSpeed={40} />
+        <Typed strings={["Feng Li"]} typeSpeed={40} />
       </Typography>
 
       <Typography className={classes.subtitle} variant="h5">
@@ -48,7 +48,7 @@ const Header = () => {
           strings={[
             "Frontend Developer",
             "Backend Developer",
-            "Native App Developer",
+            "FullStack Developer"
           ]}
           typeSpeed={40}
           backSpeed={50}
