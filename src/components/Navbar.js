@@ -52,6 +52,7 @@ const useStyles = makeStyles((theme) => ({
 const menuItems = [
   { listIcon: <Home />, listText: "Home", listPath: "/" },
   { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
+  { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
   { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
 ];
 
@@ -98,7 +99,7 @@ const Navbar = () => {
           </Toolbar>
         </AppBar>
       </Box>
-      <Drawer open={open} anchor="right" onClose={() => setOpen(false)}>
+      <Drawer open={open} anchor="left" onClose={() => setOpen(false)}>
         {sideList()}
         <Footer />
       </Drawer>

@@ -9,17 +9,18 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
+import { useState } from "react";
+import Modal from "./Modal";
 
 import project1 from "../images/html-css-javascript-lg.jpg";
 import project2 from "../images/html-css-javascript.jpg";
 import project3 from "../images/javascript-fullstack.jpg";
 import project4 from "../images/mern-stack.jpg";
 import project5 from "../images/react-redux.jpg";
-import project6 from "../images/react.png";
+
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    background: "#233",
     height: "100%",
   },
   cardContainer: {
@@ -30,59 +31,46 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
-    name: "Project 1",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-    consequatur magni quod nesciunt necessitatibus molestiae non
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus
-    iste alias sunt veritatis nisi dolores!`,
+    name: "Latest Resume",
+    description: `Here is my latest resume`,
     image: project1,
+    link: "https://docs.google.com/document/d/1Ilbu-o_8zCXi4SXSgg6ZRRX-eUlmLh6u/edit#heading=h.30j0zll",
   },
   {
-    name: "Project 2",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "React-Cal",
+    description: `a simple calculator app built with React.js`,
     image: project2,
+    link: "https://github.com/fengli738/REACT-CAL",
   },
   {
-    name: "Project 3",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: ".Net Calendar with DayPilot API", 
+    description: `A .net calendar app with DayPilot API, can create and edit events
+    and save to database`,
     image: project3,
+    link: "https://github.com/fengli738/.Net_Project_with_Daypilot",
   },
   {
-    name: "Project 4",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "Acedemic Project shopping system",
+    description: `A project use Java and Spring MVC framework, 
+    can add, delete, update products, have different user roles`,
     image: project4,
+    link: "https://github.com/itmd4515/itmd4515-s22-fp-fengli738",
   },
   {
-    name: "Project 5",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "NGO project",
+    description: `Web Application created by using C# and ASP.NET MVC 
+    framework, can upload image, create, edit, delete events, also save to database
+    by using Entity Framework database first approach using GearHost for database saftey.
+    P.S this is a 2 man project.`,
     image: project5,
-  },
-  {
-    name: "Project 6",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project6,
+    link: "https://github.com/RJSchaber/NGOEvents"
   },
 ];
 
 const Portfolio = () => {
   const classes = useStyles();
   return (
-    <Box component="div" className={classes.mainContainer}>
+    <Box component="div" className={classes.mainContainer}>     
       <Grid container justify="center">
         {/* Projects */}
         {projects.map((project, i) => (
@@ -105,11 +93,11 @@ const Portfolio = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
-                  Share
+                <Button size="small" color="primary" disabled>
+                  Large
                 </Button>
-                <Button size="small" color="primary">
-                  Live Demo
+                <Button size="small" color="primary" disabled= {!project.link} onClick={()=> {window.location.href = project.link}}>
+                  Source
                 </Button>
               </CardActions>
             </Card>
@@ -117,6 +105,7 @@ const Portfolio = () => {
         ))}
       </Grid>
     </Box>
+
   );
 };
 

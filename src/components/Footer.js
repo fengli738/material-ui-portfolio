@@ -28,7 +28,7 @@ const Footer = () => {
     <BottomNavigation className={classes.bottomNavContainer}>
       <BottomNavigationAction icon={<Facebook />} className={classes.root} />
       <BottomNavigationAction icon={<Twitter />} className={classes.root} />
-      <BottomNavigationAction icon={<Instagram />} className={classes.root} />
+      <BottomNavigationAction icon={<Instagram />} onclick={() => { window.location.href = 'http://google.com';}} className={classes.root} />
     </BottomNavigation>
   );
 };
