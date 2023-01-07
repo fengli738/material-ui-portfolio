@@ -6,8 +6,10 @@ import Resume from "./components/Resume";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import Skill from "./components/Skill";
 
 import "./App.css";
+import SkillWithParticles from "./components/SkillWithParticles";
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
         <Route exact path="/resume" component={Resume} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/skill" component={SkillWithParticles} />
       </Switch>
     </React.Fragment>
   );

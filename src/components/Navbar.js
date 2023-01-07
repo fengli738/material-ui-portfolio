@@ -21,6 +21,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import avatar from "../avatar.JPG";
 
 import Footer from "../components/Footer";
+import { BookmarkSharp } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
   appbar: {
@@ -51,9 +52,10 @@ const useStyles = makeStyles((theme) => ({
 
 const menuItems = [
   { listIcon: <Home />, listText: "Home", listPath: "/" },
-  { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
-  { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
-  { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
+  { listIcon: <AssignmentInd/>, listText: "Resume", listPath: "/resume" },
+  { listIcon : <BookmarkSharp/>, listText: "SkillList", listPath: "/skill"},
+  { listIcon: <Apps />, listText: "Project", listPath: "/portfolio" },
+  { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" }, 
 ];
 
 const Navbar = () => {

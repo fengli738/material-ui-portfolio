@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles((theme) => ({
   particlesCanvas: {
     position: "fixed",
-    opacity: "0.3"
+    opacity: "0.6"
   },
 }));
 
@@ -16,43 +16,56 @@ const Particles = () => {
     <ReactParticles
       canvasClassName={classes.particlesCanvas}
       params={{
-        particles: {
-          number: {
-            value: 45,
-            density: {
-              enable: true,
-              value_area: 800,
+        "particles": {
+            "number": {
+                "value": 500,
+                "density": {
+                    "enable": false
+                }
             },
-          },
-          shape: {
-            type: "circle",
-            stroke: {
-              width: 1,
-              color: "tomato",
+            "size": {
+                "value": 5,
+                "random": true,
+                "anim": {
+                    "speed": 4,
+                    "size_min": 0.3
+                }
             },
-          },
-          size: {
-            value: 8,
-            random: true,
-            anim: {
-              enable: false,
-              speed: 6,
-              size_min: 0,
-              sync: true,
+            "line_linked": {
+                "enable": false
             },
-          },
-          opacity: {
-            value: 0.5,
-            random: true,
-            anim: {
-              enable: true,
-              speed: 1,
-              opacity_min: 0.1,
-              sync: false,
-            },
-          },
+            "move": {
+                "random": true,
+                "speed": 1,
+                "direction": "top",
+                "out_mode": "out"
+            }
         },
-      }}
+        "interactivity": {
+            "events": {
+                "onhover": {
+                    "enable": true,
+                    "mode": "bubble"
+                },
+                "onclick": {
+                    "enable": true,
+                    "mode": "repulse"
+                }
+            },
+            "modes": {
+                "bubble": {
+                    "distance": 250,
+                    "duration": 2,
+                    "size": 0,
+                    "opacity": 0
+                },
+                "repulse": {
+                    "distance": 400,
+                    "duration": 4
+                }
+            }
+        }
+    }}
     />
   );
 };
