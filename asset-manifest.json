@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.6fc31ce3.chunk.css",
-    "main.js": "/static/js/main.e52e1d61.chunk.js",
-    "main.js.map": "/static/js/main.e52e1d61.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.1a369bed.chunk.js": "/static/js/2.1a369bed.chunk.js",
-    "static/js/2.1a369bed.chunk.js.map": "/static/js/2.1a369bed.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.00982ff4a4436dfb36c6224943b02133.js": "/precache-manifest.00982ff4a4436dfb36c6224943b02133.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.6fc31ce3.chunk.css.map": "/static/css/main.6fc31ce3.chunk.css.map",
-    "static/js/2.1a369bed.chunk.js.LICENSE.txt": "/static/js/2.1a369bed.chunk.js.LICENSE.txt",
-    "static/media/avatar.JPG": "/static/media/avatar.d698dfc6.JPG",
-    "static/media/App.css": "/static/media/elexon_tube_2400x1200.715176c1.jpg",
-    "static/media/html-css-javascript-lg.jpg": "/static/media/html-css-javascript-lg.54fd4234.jpg",
-    "static/media/html-css-javascript.jpg": "/static/media/html-css-javascript.2c7701aa.jpg",
-    "static/media/javascript-fullstack.jpg": "/static/media/javascript-fullstack.730958a2.jpg",
-    "static/media/mern-stack.jpg": "/static/media/mern-stack.90616a5d.jpg",
-    "static/media/react-redux.jpg": "/static/media/react-redux.a8b012a0.jpg"
+    "main.css": "/material-ui-portfolio/static/css/main.2f286e5c.chunk.css",
+    "main.js": "/material-ui-portfolio/static/js/main.8e4630e0.chunk.js",
+    "main.js.map": "/material-ui-portfolio/static/js/main.8e4630e0.chunk.js.map",
+    "runtime-main.js": "/material-ui-portfolio/static/js/runtime-main.ac119032.js",
+    "runtime-main.js.map": "/material-ui-portfolio/static/js/runtime-main.ac119032.js.map",
+    "static/js/2.1a369bed.chunk.js": "/material-ui-portfolio/static/js/2.1a369bed.chunk.js",
+    "static/js/2.1a369bed.chunk.js.map": "/material-ui-portfolio/static/js/2.1a369bed.chunk.js.map",
+    "index.html": "/material-ui-portfolio/index.html",
+    "precache-manifest.67ab2c38be28a7b6d1a088c4d959d398.js": "/material-ui-portfolio/precache-manifest.67ab2c38be28a7b6d1a088c4d959d398.js",
+    "service-worker.js": "/material-ui-portfolio/service-worker.js",
+    "static/css/main.2f286e5c.chunk.css.map": "/material-ui-portfolio/static/css/main.2f286e5c.chunk.css.map",
+    "static/js/2.1a369bed.chunk.js.LICENSE.txt": "/material-ui-portfolio/static/js/2.1a369bed.chunk.js.LICENSE.txt",
+    "static/media/avatar.JPG": "/material-ui-portfolio/static/media/avatar.d698dfc6.JPG",
+    "static/media/App.css": "/material-ui-portfolio/static/media/elexon_tube_2400x1200.715176c1.jpg",
+    "static/media/html-css-javascript-lg.jpg": "/material-ui-portfolio/static/media/html-css-javascript-lg.54fd4234.jpg",
+    "static/media/html-css-javascript.jpg": "/material-ui-portfolio/static/media/html-css-javascript.2c7701aa.jpg",
+    "static/media/javascript-fullstack.jpg": "/material-ui-portfolio/static/media/javascript-fullstack.730958a2.jpg",
+    "static/media/mern-stack.jpg": "/material-ui-portfolio/static/media/mern-stack.90616a5d.jpg",
+    "static/media/react-redux.jpg": "/material-ui-portfolio/static/media/react-redux.a8b012a0.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/runtime-main.ac119032.js",
     "static/js/2.1a369bed.chunk.js",
-    "static/css/main.6fc31ce3.chunk.css",
-    "static/js/main.e52e1d61.chunk.js"
+    "static/css/main.2f286e5c.chunk.css",
+    "static/js/main.8e4630e0.chunk.js"
   ]
 }
