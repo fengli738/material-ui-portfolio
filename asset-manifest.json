@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/material-ui-portfolio/static/css/main.2f286e5c.chunk.css",
-    "main.js": "/material-ui-portfolio/static/js/main.8e4630e0.chunk.js",
-    "main.js.map": "/material-ui-portfolio/static/js/main.8e4630e0.chunk.js.map",
+    "main.js": "/material-ui-portfolio/static/js/main.a30a63f9.chunk.js",
+    "main.js.map": "/material-ui-portfolio/static/js/main.a30a63f9.chunk.js.map",
     "runtime-main.js": "/material-ui-portfolio/static/js/runtime-main.ac119032.js",
     "runtime-main.js.map": "/material-ui-portfolio/static/js/runtime-main.ac119032.js.map",
-    "static/js/2.1a369bed.chunk.js": "/material-ui-portfolio/static/js/2.1a369bed.chunk.js",
-    "static/js/2.1a369bed.chunk.js.map": "/material-ui-portfolio/static/js/2.1a369bed.chunk.js.map",
+    "static/js/2.974621fc.chunk.js": "/material-ui-portfolio/static/js/2.974621fc.chunk.js",
+    "static/js/2.974621fc.chunk.js.map": "/material-ui-portfolio/static/js/2.974621fc.chunk.js.map",
     "index.html": "/material-ui-portfolio/index.html",
-    "precache-manifest.67ab2c38be28a7b6d1a088c4d959d398.js": "/material-ui-portfolio/precache-manifest.67ab2c38be28a7b6d1a088c4d959d398.js",
+    "precache-manifest.ad854ca257f3cea51c94d8a6dbc4d012.js": "/material-ui-portfolio/precache-manifest.ad854ca257f3cea51c94d8a6dbc4d012.js",
     "service-worker.js": "/material-ui-portfolio/service-worker.js",
     "static/css/main.2f286e5c.chunk.css.map": "/material-ui-portfolio/static/css/main.2f286e5c.chunk.css.map",
-    "static/js/2.1a369bed.chunk.js.LICENSE.txt": "/material-ui-portfolio/static/js/2.1a369bed.chunk.js.LICENSE.txt",
+    "static/js/2.974621fc.chunk.js.LICENSE.txt": "/material-ui-portfolio/static/js/2.974621fc.chunk.js.LICENSE.txt",
     "static/media/avatar.JPG": "/material-ui-portfolio/static/media/avatar.d698dfc6.JPG",
     "static/media/App.css": "/material-ui-portfolio/static/media/elexon_tube_2400x1200.715176c1.jpg",
     "static/media/html-css-javascript-lg.jpg": "/material-ui-portfolio/static/media/html-css-javascript-lg.54fd4234.jpg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ac119032.js",
-    "static/js/2.1a369bed.chunk.js",
+    "static/js/2.974621fc.chunk.js",
     "static/css/main.2f286e5c.chunk.css",
-    "static/js/main.8e4630e0.chunk.js"
+    "static/js/main.a30a63f9.chunk.js"
   ]
 }
