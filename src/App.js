@@ -10,6 +10,7 @@ import Skill from "./components/Skill";
 
 import "./App.css";
 import SkillWithParticles from "./components/SkillWithParticles";
+import PortfolioWithParticles from "./components/PortfolioWithParticles";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/resume" component={Resume} />
-        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/portfolio" component={PortfolioWithParticles} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/skill" component={SkillWithParticles} />
       </Switch>

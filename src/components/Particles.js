@@ -1,6 +1,7 @@
 import React from "react";
 import { Particles as ReactParticles } from "react-particles-js";
 import { makeStyles } from "@material-ui/core/styles";
+import { colors } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   particlesCanvas: {
@@ -23,6 +24,9 @@ const Particles = () => {
                     "enable": false
                 }
             },
+            // "color": {
+            //     "value": "#1A0000"
+            // },
             "size": {
                 "value": 5,
                 "random": true,
