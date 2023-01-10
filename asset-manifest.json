@@ -1,29 +1,28 @@
 {
   "files": {
     "main.css": "/material-ui-portfolio/static/css/main.2f286e5c.chunk.css",
-    "main.js": "/material-ui-portfolio/static/js/main.a30a63f9.chunk.js",
-    "main.js.map": "/material-ui-portfolio/static/js/main.a30a63f9.chunk.js.map",
+    "main.js": "/material-ui-portfolio/static/js/main.779b0caa.chunk.js",
+    "main.js.map": "/material-ui-portfolio/static/js/main.779b0caa.chunk.js.map",
     "runtime-main.js": "/material-ui-portfolio/static/js/runtime-main.ac119032.js",
     "runtime-main.js.map": "/material-ui-portfolio/static/js/runtime-main.ac119032.js.map",
-    "static/js/2.974621fc.chunk.js": "/material-ui-portfolio/static/js/2.974621fc.chunk.js",
-    "static/js/2.974621fc.chunk.js.map": "/material-ui-portfolio/static/js/2.974621fc.chunk.js.map",
+    "static/js/2.b8cdc084.chunk.js": "/material-ui-portfolio/static/js/2.b8cdc084.chunk.js",
+    "static/js/2.b8cdc084.chunk.js.map": "/material-ui-portfolio/static/js/2.b8cdc084.chunk.js.map",
     "index.html": "/material-ui-portfolio/index.html",
-    "precache-manifest.ad854ca257f3cea51c94d8a6dbc4d012.js": "/material-ui-portfolio/precache-manifest.ad854ca257f3cea51c94d8a6dbc4d012.js",
+    "precache-manifest.74707cc211f6769e415cf66786bfd12b.js": "/material-ui-portfolio/precache-manifest.74707cc211f6769e415cf66786bfd12b.js",
     "service-worker.js": "/material-ui-portfolio/service-worker.js",
     "static/css/main.2f286e5c.chunk.css.map": "/material-ui-portfolio/static/css/main.2f286e5c.chunk.css.map",
-    "static/js/2.974621fc.chunk.js.LICENSE.txt": "/material-ui-portfolio/static/js/2.974621fc.chunk.js.LICENSE.txt",
+    "static/js/2.b8cdc084.chunk.js.LICENSE.txt": "/material-ui-portfolio/static/js/2.b8cdc084.chunk.js.LICENSE.txt",
+    "static/media/.NetCalendar.PNG": "/material-ui-portfolio/static/media/.NetCalendar.725ffca0.PNG",
+    "static/media/React-Cal.PNG": "/material-ui-portfolio/static/media/React-Cal.730d9ae2.PNG",
+    "static/media/Resume.PNG": "/material-ui-portfolio/static/media/Resume.1fc95e79.PNG",
     "static/media/avatar.JPG": "/material-ui-portfolio/static/media/avatar.d698dfc6.JPG",
     "static/media/App.css": "/material-ui-portfolio/static/media/elexon_tube_2400x1200.715176c1.jpg",
-    "static/media/html-css-javascript-lg.jpg": "/material-ui-portfolio/static/media/html-css-javascript-lg.54fd4234.jpg",
-    "static/media/html-css-javascript.jpg": "/material-ui-portfolio/static/media/html-css-javascript.2c7701aa.jpg",
-    "static/media/javascript-fullstack.jpg": "/material-ui-portfolio/static/media/javascript-fullstack.730958a2.jpg",
-    "static/media/mern-stack.jpg": "/material-ui-portfolio/static/media/mern-stack.90616a5d.jpg",
-    "static/media/react-redux.jpg": "/material-ui-portfolio/static/media/react-redux.a8b012a0.jpg"
+    "static/media/react.png": "/material-ui-portfolio/static/media/react.f370c1e0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ac119032.js",
-    "static/js/2.974621fc.chunk.js",
+    "static/js/2.b8cdc084.chunk.js",
     "static/css/main.2f286e5c.chunk.css",
-    "static/js/main.a30a63f9.chunk.js"
+    "static/js/main.779b0caa.chunk.js"
   ]
 }
